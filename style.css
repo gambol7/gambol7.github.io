@@ -18,7 +18,7 @@ font-weight: 500;
 
 
     body {
-        background: linear-gradient(135deg, #e0f7fa, #e1bee7); /* Subtle gradient */
+        background-color: linear-gradient(135deg, #e0f7fa, #e1bee7); /* Subtle gradient */
         font-family: 'Arial', sans-serif;
         color: #333;
         line-height: 1.6;
