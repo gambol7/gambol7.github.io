@@ -15,8 +15,60 @@ font-weight: 500;
 
 
 
-body
-{
-    background-color: aquamarine;
 
-}
+
+    body {
+        background: linear-gradient(135deg, #e0f7fa, #e1bee7); /* Subtle gradient */
+        font-family: 'Arial', sans-serif;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    /* Styling for paragraphs */
+    p {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+    
+    /* Headings for a more modern look */
+    h1, h2, h3 {
+        font-family: 'Georgia', serif;
+        color: #444;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    /* Link styling */
+    a {
+        color: #1e88e5; /* Modern blue tone */
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: #0d47a1; /* Darker blue on hover */
+        text-decoration: underline;
+    }
+    
+    /* Better padding and margin for content */
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like look */
+        border-radius: 8px;
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+        body {
+            padding: 10px;
+        }
+    
+        p {
+            font-size: 1em;
+        }
+    }background-color: aquamarine;
